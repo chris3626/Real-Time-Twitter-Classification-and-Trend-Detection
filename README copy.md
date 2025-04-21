@@ -1,5 +1,4 @@
 # Real-Time-Twitter-Classification-and-Trend-Detection
-# Real-Time-Twitter-Classification-and-Trend-Detection
 Real-Time-Twitter-Classification-and-Trend-Detection/
 │
 ├── stream.py              # Collect tweets using Twitter API
