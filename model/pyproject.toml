@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project_ml"
+version = "1.0.0"
+description = "A machine learning model used for sentiment analysis using Naive Bayes & BERT"
+authors = [
+  { name="Saul Mora" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "matplotlib",
+  "seaborn",
+  "transformers",
+  "datasets",
+  "tensorflow"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]

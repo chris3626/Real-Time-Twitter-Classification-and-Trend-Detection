@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: project_ml
+Version: 1.0.0
+Summary: A machine learning model used for sentiment analysis using Naive Bayes & BERT
+Author: Saul Mora
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: transformers
+Requires-Dist: datasets
+Requires-Dist: tensorflow
